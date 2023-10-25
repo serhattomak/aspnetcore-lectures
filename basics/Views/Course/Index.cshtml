@@ -1,3 +1,5 @@
+@model Course
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +8,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Home Page</h1>
+    <h1>Course Index Page</h1>
+    <p>Id: @Model.Id</p>
+    <p>Title: @Model.Title</p>
+    <p>Description: @Model.Description</p>
 </body>
 </html>
