@@ -20,10 +20,10 @@ public class CourseController : Controller
     {
         var courses=new List<Course>()
         {
-            new Course() { Id = 1, Title="ASP.NET Core Course", Description="ASP.NET Core Course Description"},
-            new Course() { Id = 2, Title="PHP Course", Description="PHP Course Description"},
-            new Course() { Id = 3, Title="Django Course", Description="Django Course Description"},
-            new Course() { Id = 4, Title="JavaScript Course", Description="JavaScript Course Description"}
+            new Course() { Id = 1, Title="ASP.NET Core Course", Description="ASP.NET Core Course Description", Image="1.jpg"},
+            new Course() { Id = 2, Title="PHP Course", Description="PHP Course Description", Image="2.jpg"},
+            new Course() { Id = 3, Title="Django Course", Description="Django Course Description", Image="3.jpg"},
+            new Course() { Id = 4, Title="JavaScript Course", Description="JavaScript Course Description", Image="4.jpg"}
         };
         return View("CourseList", courses);
     }
