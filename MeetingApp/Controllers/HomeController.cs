@@ -1,4 +1,5 @@
 using System;
+using MeetingApp.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MeetingApp.Controllers
@@ -9,13 +10,18 @@ namespace MeetingApp.Controllers
         {
             int hour = DateTime.Now.Hour; 
 
-            // ViewBag.Greeting = hour > 12 ? "Have a nice day": "Good Morning";
-            // ViewBag.UserName = "Serhat";
-
             ViewData["Greeting"] = hour > 12 ? "Have a nice day": "Good Morning";
             ViewData["UserName"] = "Serhat";
 
-            return View();
+            var meetingInfo=new MeetingInfo()
+            {
+                Id=1,
+                Location="İstanbul, ABC Congress Centre",
+                Date= new DateTime(2024,01,20,20,0,0),
+                NumberOfPeople=100
+            };
+
+            return View(meetingInfo);
         }
     }
 }
