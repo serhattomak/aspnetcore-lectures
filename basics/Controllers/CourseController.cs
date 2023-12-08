@@ -13,6 +13,7 @@ public class CourseController : Controller
         course.Id=1;
         course.Title="ASP.NET Core Course";
         course.Description="ASP.NET Core Course Description";
+        course.Image="1.jpg";
         return View(course);
     }
     //course/list
