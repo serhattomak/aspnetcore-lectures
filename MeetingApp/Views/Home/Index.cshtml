@@ -3,14 +3,15 @@
     ViewBag.Title = "Meeting Applyment";
     Layout = "_Layout2";
 }
-
-<h1 class="h4">@ViewData["Greeting"], @ViewData["UserName"]</h1>
-<p>Please report your meeting status.</p>
-<div class="card my-2">
-    <ul class="list-group list-group-flush">
-        <li class="list-group-item">@Model.Location</li>
-        <li class="list-group-item">Starting: @Model.Date.ToString("dd/MM/yyyy HH:mm:ss")</li>
-        <li class="list-group-item">@Model.NumberOfPeople Participants</li>
-    </ul>
-</div>
-<a class="btn btn-sm btn-outline-primary" asp-controller="Meeting" asp-action="Apply">Apply</a>
+<main class="text-center">
+    <h1 class="h4">@ViewData["Greeting"], @ViewData["UserName"]</h1>
+    <p>Please report your meeting status.</p>
+    <div class="card my-2">
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">@Model.Location</li>
+            <li class="list-group-item">Starting: @Model.Date.ToString("dd/MM/yyyy HH:mm:ss")</li>
+            <li class="list-group-item">@Model.NumberOfPeople Participants</li>
+        </ul>
+    </div>
+    <a class="btn btn-sm btn-outline-primary" asp-controller="Meeting" asp-action="Apply">Apply</a>
+</main>
