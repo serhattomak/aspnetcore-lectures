@@ -17,5 +17,10 @@ namespace basics.Models
         public static List<Course> Courses{
             get { return _courses;}
         }
+
+        public static Course? GetById(int? id)
+        {
+            return _courses.FirstOrDefault(c=>c.Id == id);
+        }
     }
 }
