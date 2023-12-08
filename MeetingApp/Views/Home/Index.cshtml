@@ -1,7 +1,8 @@
 @{
-    Layout="_Layout2";
+    ViewBag.Title = "Meeting Applyment";
+    Layout = "_Layout2";
 }
 
-<h1 class="h4">Hello</h1>
-<p>Report your meeting status.</p>
+<h1 class="h4">@ViewData["Greeting"], @ViewData["UserName"]</h1>
+<p>Please report your meeting status.</p>
 <a class="btn btn-sm btn-outline-primary" asp-controller="Meeting" asp-action="Apply">Apply</a>
