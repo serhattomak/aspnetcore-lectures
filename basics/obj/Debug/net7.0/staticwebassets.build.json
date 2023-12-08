@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1kh7bMn6prsJ2a7NcX0A804/L7jwqmCan75pzX/QrHc=",
+  "Hash": "YRUPA4Q96Oj+y3cvLQAVBL/JIjXjNWqXTL49kV1i1uk=",
   "Source": "basics",
   "BasePath": "_content/basics",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\serha\\Desktop\\serhatdev\\aspnetcore-lectures\\basics\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\basics.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\serha\\Desktop\\serhatdev\\aspnetcore-lectures\\basics\\wwwroot\\css\\contact.css",
+      "SourceId": "basics",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\serha\\Desktop\\serhatdev\\aspnetcore-lectures\\basics\\wwwroot\\",
+      "BasePath": "_content/basics",
+      "RelativePath": "css/contact.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\contact.css"
     },
     {
       "Identity": "C:\\Users\\serha\\Desktop\\serhatdev\\aspnetcore-lectures\\basics\\wwwroot\\css\\site.css",
