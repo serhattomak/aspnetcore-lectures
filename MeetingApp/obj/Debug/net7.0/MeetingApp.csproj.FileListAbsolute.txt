@@ -25,3 +25,5 @@ C:\Users\serha\Desktop\serhatdev\aspnetcore-lectures\MeetingApp\obj\Debug\net7.0
 C:\Users\serha\Desktop\serhatdev\aspnetcore-lectures\MeetingApp\obj\Debug\net7.0\ref\MeetingApp.dll
 C:\Users\serha\Desktop\serhatdev\aspnetcore-lectures\MeetingApp\obj\Debug\net7.0\MeetingApp.RazorAssemblyInfo.cache
 C:\Users\serha\Desktop\serhatdev\aspnetcore-lectures\MeetingApp\obj\Debug\net7.0\MeetingApp.RazorAssemblyInfo.cs
+C:\Users\serha\Desktop\serhatdev\aspnetcore-lectures\MeetingApp\bin\Debug\net7.0\libman.json
+C:\Users\serha\Desktop\serhatdev\aspnetcore-lectures\MeetingApp\bin\Debug\net7.0\MeetingApp.staticwebassets.runtime.json
